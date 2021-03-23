@@ -25,7 +25,7 @@ services:
     ports:
       - 9200:9200
   grafana:
-    image: grafana/grafana:6.5.2
+    image: grafana/grafana:latest
     volumes:
     - cert-intelmq-grafana:/var/lib/grafana
     links:
