@@ -21,7 +21,7 @@ services:
     image: certunlp/intelmq:2.2.1
     environment:
       REDIS_SERVER: redis
-      REPO_UPDATE: https://github.com/CERTUNLP/intelmq-bots.git
+      REPO_UPDATE: https://github.com/KE-CIRT/intelmq-bots.git
       LOG_MAIL_ENABLED: "true"
       LOG_LEVEL: "logging.ERROR"
       LOG_MAIL_MAILHOST: "mail.example.unlp.edu.ar"
